@@ -1,0 +1,1 @@
+fetch("https://fakerjs-api.sherlockholmese.repl.co/words/200").then(response => {console.log(response)})
