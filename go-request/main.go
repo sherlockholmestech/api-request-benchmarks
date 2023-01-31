@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	resp, err := http.Get("https://fakerjs-api.sherlockholmese.repl.co/words/900")
+	resp, err := http.Get("https://fakerjs-api.sherlockholmese.repl.co/ipsium")
 	if err != nil {
 		log.Fatalln(err)
 	}
